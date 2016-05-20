@@ -1,0 +1,53 @@
+<head>
+  <title>chriswessels:slideout example</title>
+  <meta http-equiv="cleartype" content="on">
+  <meta name="MobileOptimized" content="320">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+</body>
+
+<template name="MasterLayout">
+  <div id="content">
+    <h1>Welcome to Demo!</h1>
+    <div class="nav-header">
+      <a href="" class="nav-button-left">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="" class="nav-button-right">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    {{> yield}}
+  </div>
+  <div id="slideout-menu-left">
+    <strong>Menu 1</strong><br/>
+    <a href="{{pathFor 'page1'}}">Page 1</a><br/>
+    <a href="{{pathFor 'page2'}}">Page 2</a><br/>
+  </div>
+  <div id="slideout-menu-right">
+    <strong>Menu 2</strong><br/>
+    <a href="{{pathFor 'page3'}}">Page 3</a><br/>
+    <a href="{{pathFor 'page4'}}">Page 4</a><br/>
+  </div>
+</template>
+
+<template name="page1">
+  <br/><br/><h1>Page 1!</h1>
+
+</template>
+
+<template name="page2">
+  <br/><br/><h1>Page 2!</h1>
+</template>
+
+<template name="page3">
+  <br/><br/><h1>Page 3!</h1>
+</template>
+
+<template name="page4">
+  <br/><br/><h1>Page 4!</h1>
+</template>

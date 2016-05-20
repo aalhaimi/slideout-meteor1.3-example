@@ -1,0 +1,23 @@
+{
+  "name": "slideout-meteor1.3-example",
+  "version": "1.0.0",
+  "description": "Slideout.js right and left nav side menu implementation on Meteor 1.3 ",
+  "main": "main.html",
+  "dependencies": {
+    "slideout": "^0.1.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aalhaimi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalhaimi/slideout-meteor1.3-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aalhaimi/slideout-meteor1.3-exampleissues"
+  },
+  "homepage": "https://github.com/aalhaimi/slideout-meteor1.3-example#readme"
+}
